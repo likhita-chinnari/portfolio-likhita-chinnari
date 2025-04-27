@@ -27,10 +27,10 @@ export default function Home() {
     const dynamicText = document.querySelector('.dynamic-text') as HTMLElement;
     const roles = [
       'Android Developer',
-      'React Native Developer',
-      'Machine Learning Enthusiast',
-      'Automotive Applications Developer',
-      'Full Stack Developer',
+      'Automotive & EV domain Enthusiast',
+      'ML/AI Leaner',
+      'React Native App Developer',
+      
     ];
 
     let roleIndex = 0;
@@ -110,13 +110,13 @@ export default function Home() {
         <div className="container">
           <h2 className="section-heading">About</h2>
           <p style={{ marginBottom: '20px' }}>
-            I am a Software Engineer working in the Bay Area, driven by a passion for application development that began six years ago. Since then, I’ve been building exciting projects across Android, full-stack development, and mobile platforms, constantly exploring new ideas and evolving my skills.
+          I am a Software Engineer working in the Bay Area, driven by a passion for application development that began six years ago. Since then, I’ve been building exciting projects across Android, full-stack development, and mobile platforms, constantly exploring new ideas and evolving my skills. From developing front-end interfaces to architecting backend systems, I love the process of bringing concepts to life and delivering real-world solutions.
           </p>
           <p style={{ marginBottom: '20px' }}>
-            Professionally, I specialize in automotive software development, focusing on AOSP for infotainment systems in electric vehicles. 🚗⚙️
+          Professionally, I specialize in automotive software development, focusing on AOSP (Android Open Source Project) for infotainment systems in electric vehicles (EVs). I’ve had the opportunity to play a key role in customizing Android at the system level, crafting EV dashboards and delivering infotainment systems under tight deadlines. Contributing to the real-time launch of infotainment platforms for multiple EV brands has been one of the most rewarding parts of my career, blending my love for Android development with the excitement of working on cutting-edge automotive technology.
           </p>
           <p>
-            As I pursue my Master’s in Computer Science, I’m diving deeper into AI, NLP, and ML. 🚀
+          As I pursue my Master’s in Computer Science, I’m diving deeper into the world of Artificial Intelligence (AI), Natural Language Processing (NLP), and Machine Learning (ML). Collaborating with professors on AI-driven projects, I’ve worked on language models, data-driven applications, and intelligent systems that push the boundaries of technology. This exposure has sparked my interest in building smarter applications that merge AI with mobile and automotive platforms, and I’m excited to explore how AI can transform industries. 
           </p>
         </div>
       </section>

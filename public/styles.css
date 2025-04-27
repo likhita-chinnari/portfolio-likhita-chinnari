@@ -122,10 +122,12 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 120px 5% 60px 5%; /* 120px top padding to push below header */
     background-color: #1e1e1e;
-    min-height: auto; /* Remove full 100vh force */
-  }
+    width: 100%;
+    margin: 120px auto 30px auto;
+    padding: 40px 5%;
+}
+
   
   .hero-container {
     display: flex;
