@@ -1,4 +1,6 @@
 import './globals.css'; // Keep your default styles
+import Script from 'next/script';
+
 
 export const metadata = {
   title: 'Likhita Chinnari - Portfolio',
@@ -16,7 +18,9 @@ export default function RootLayout({
         <link rel="stylesheet" href="/styles.css" />
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-p1CmR6Vf1dyPfYZ7R6pujISiFDUFxIr05o2N8S1Ry6j8Tz6kRXKuX3sI5Gucs5cjox96D65V6pZeRAwIJ5zs/Q==" crossOrigin="anonymous" referrerPolicy="no-referrer" />
       </head>
-      <body>{children}</body>
+      <body>{children}
+      <Script src="https://kit.fontawesome.com/a076d05399.js" crossOrigin="anonymous" />
+      </body>
     </html>
   );
 }
