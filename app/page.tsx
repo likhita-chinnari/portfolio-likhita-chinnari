@@ -1,6 +1,12 @@
 "use client";
 
 import { useEffect } from 'react';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
+import { faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons';
+import { faPhoneAlt, faMapMarkerAlt } from '@fortawesome/free-solid-svg-icons';
+
+
 
 export default function Home() {
   useEffect(() => {
@@ -379,30 +385,32 @@ export default function Home() {
     <div className="container contact-container">
         <h2>Contact Me</h2>
         <div className="contact-info">
-            <div className="contact-item">
-                <i className="fas fa-envelope"></i>
-                <p>likhitachinnari@gmail.com</p>
-            </div>
-            <div className="contact-item">
-                <i className="fas fa-phone-alt"></i>
-                <p>(602) 566-0428</p>
-            </div>
-            <div className="contact-item">
-                <i className="fas fa-map-marker-alt"></i>
-                <p>Tempe, United States</p>
-            </div>
+        <div className="contact-item">
+          <FontAwesomeIcon icon={faEnvelope} />
+          <p>likhitachinnari@gmail.com</p>
         </div>
+        <div className="contact-item">
+          <FontAwesomeIcon icon={faPhoneAlt} />
+          <p>(602) 566-0428</p>
+        </div>
+        <div className="contact-item">
+          <FontAwesomeIcon icon={faMapMarkerAlt} />
+          <p>Tempe, United States</p>
+        </div>
+    </div>
+
         <div className="social-icons">
-            <a href="https://www.linkedin.com/in/likhita-chinnari/">
-                <i className="fab fa-linkedin"></i>
-            </a>
-            <a href="https://github.com/likhita-chinnari">
-                <i className="fab fa-github"></i>
-            </a>
-            <a href="mailto:likhitachinnari0704@gmail.com">
-                <i className="fas fa-envelope"></i>
-            </a>
+        <a href="https://www.linkedin.com/in/likhita-chinnari/" target="_blank">
+          <FontAwesomeIcon icon={faLinkedin} />
+        </a>
+        <a href="https://github.com/likhita-chinnari" target="_blank">
+          <FontAwesomeIcon icon={faGithub} />
+        </a>
+        <a href="mailto:likhitachinnari0704@gmail.com" target="_blank">
+        <FontAwesomeIcon icon={faEnvelope} />
+        </a>
         </div>
+
         
     </div>
     </section>
