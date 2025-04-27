@@ -159,10 +159,10 @@ export default function Home() {
             <div className="skills-category">
                 <h3>Frameworks & Libraries</h3>
                 <div className="skills-grid">
-                    <div className="skill-card"><img src="icons/react.svg" alt="React"/><p>React</p></div>
-                    <div className="skill-card"><img src="icons/vue.svg" alt="Vue.js"/><p>Vue.js</p></div>
-                    <div className="skill-card"><img src="icons/nodejs.svg" alt="Node.js"/><p>Node.js</p></div>
-                    <div className="skill-card"><img src="icons/express.svg" alt="Express"/><p>Express</p></div>
+                    <div className="skill-card"><img src="icons/react.png" alt="React"/><p>React</p></div>
+                    <div className="skill-card"><img src="icons/next.jpeg" alt="Next.js"/><p>Next.js</p></div>
+                    <div className="skill-card"><img src="icons/node.png" alt="Node.js"/><p>Node.js</p></div>
+                    <div className="skill-card"><img src="icons/springboot.png" alt="SpringBoot"/><p>SpringBoot</p></div>
                 </div>
             </div>
     
