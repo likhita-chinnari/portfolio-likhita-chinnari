@@ -397,7 +397,7 @@ export default function Home() {
           <FontAwesomeIcon icon={faMapMarkerAlt} />
           <p>Tempe, United States</p>
         </div>
-    </div>
+        </div>
 
         <div className="social-icons">
         <a href="https://www.linkedin.com/in/likhita-chinnari/" target="_blank">
