@@ -6,8 +6,6 @@ import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
 import { faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons';
 import { faPhoneAlt, faMapMarkerAlt } from '@fortawesome/free-solid-svg-icons';
 
-
-
 export default function Home() {
   useEffect(() => {
     const sections = document.querySelectorAll('section');
@@ -40,26 +38,33 @@ export default function Home() {
     let isDeleting = false;
 
     function typeEffect() {
+      if (!dynamicText) return;
       const currentRole = roles[roleIndex];
 
-      if (dynamicText) {
-        if (isDeleting) {
-          dynamicText.textContent = currentRole.substring(0, charIndex--);
-        } else {
-          dynamicText.textContent = currentRole.substring(0, charIndex++);
-        }
+      if (isDeleting) {
+        dynamicText.textContent = currentRole.substring(0, charIndex);
+        charIndex--;
 
-        if (!isDeleting && charIndex === currentRole.length) {
-          isDeleting = true;
-          setTimeout(typeEffect, 2500);
-        } else if (isDeleting && charIndex === 0) {
+        if (charIndex < 0) {
           isDeleting = false;
           roleIndex = (roleIndex + 1) % roles.length;
           setTimeout(typeEffect, 500);
-        } else {
-          setTimeout(typeEffect, isDeleting ? 75 : 120);
+          return;
+        }
+      } else {
+        dynamicText.textContent = currentRole.substring(0, charIndex);
+        charIndex++;
+
+        if (charIndex > currentRole.length) {
+          setTimeout(() => {
+            isDeleting = true;
+            typeEffect();
+          }, 1500);
+          return;
         }
       }
+
+      setTimeout(typeEffect, isDeleting ? 75 : 120);
     }
 
     typeEffect();
