@@ -233,8 +233,23 @@ export default function Home() {
     <section id="projects" className="projects-section fade-in">
         <div className="container">
           <h2>Projects</h2>
+
           <div className="projects-grid">
-      
+          <div className="project-card">
+              <h3>My Portfolio</h3>
+              <p>Developed</p>
+              <div className="tech-stack">
+                <span>Next.js</span>TypeScript<span>HTML</span>CSS<span>Vercel</span>
+              </div>
+              <div className="project-image">
+                <img src="/icons/portfolio-image.png" alt="My-Portfolio"/>
+              </div>
+              <div className="project-links">
+                <a href="https://github.com/likhita-chinnari/portfolio-likhita-chinnari" target="_blank"><i className="fab fa-github"></i></a>
+              </div>
+            </div>
+
+
             <div className="project-card">
               <h3>Movie Recommendation System</h3>
               <p>Built a movie recommendation system in Python, utilizing Scikit-learn and Pandas. Implemented classification and clustering models, including KNN and Logistic Regression, achieving 85%+ prediction accuracy to provide personalized movie suggestions.</p>
