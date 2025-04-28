@@ -363,9 +363,8 @@ export default function Home() {
                     <div className="details">
                         <h3>Tikkly Agro Solutions</h3>
                         <h4>React Applications Developer Intern</h4>
-                        <p>Implemented an ad carousel for the Tikkly e-commerce app using React Native FlatList and timed scroll logic, and
-styled sponsored product cards using JSX layout and Flexbox-based CSS. Configured ad click tracking hooks using event listeners and REST logging, sending metadata to a mock analytics
-endpoint; enabled basic attribution and engagement insights for featured vendors.</p>
+                        <p>Worked on ad carousel and sponsored product tracking for the Tikkly e-commerce app using React Native, FlatList, Flexbox, and REST-based event logging.Configured ad click tracking hooks using event listeners and REST logging, sending metadata to a mock analytics
+endpoint. enabled basic attribution and engagement insights for featured vendors.</p>
                     </div>
                 </div>
 
