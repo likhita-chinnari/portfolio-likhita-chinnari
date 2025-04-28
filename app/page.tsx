@@ -68,6 +68,18 @@ export default function Home() {
     }
 
     typeEffect();
+    const toggle = document.getElementById('menu-toggle');
+  const navLinks = document.getElementById('nav-links');
+
+  const toggleMenu = () => {
+    navLinks?.classList.toggle('active');
+  };
+
+  toggle?.addEventListener('click', toggleMenu);
+
+  return () => {
+    toggle?.removeEventListener('click', toggleMenu);
+  };
   }, []);
 
   return (
@@ -77,6 +89,9 @@ export default function Home() {
         <div className="container header-container">
           <div className="logo">LC</div>
           <nav>
+          <div className="menu-toggle" id="menu-toggle">
+          <i className="fas fa-bars"></i> 
+          </div>
             <ul>
               <li><a href="#about">About</a></li>
               <li><a href="#education">Education</a></li>

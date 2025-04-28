@@ -747,4 +747,49 @@ section.fade-out {
       padding: 15px;
     }
   }
+
+
+  .menu-toggle {
+    display: none;
+    font-size: 2rem;
+    color: white;
+    cursor: pointer;
+  }
+  
+  nav ul {
+    display: flex;
+    list-style: none;
+    gap: 40px;
+  }
+  
+  /* Responsive behavior */
+  @media (max-width: 768px) {
+    .menu-toggle {
+      display: block;
+    }
+  
+    nav ul {
+      display: none;
+      flex-direction: column;
+      background-color: #1e1e1e;
+      position: absolute;
+      top: 80px;
+      right: 5%;
+      width: 200px;
+      border-radius: 10px;
+      padding: 20px 0;
+      text-align: center;
+      gap: 20px;
+      z-index: 1000;
+    }
+  
+    nav ul.active {
+      display: flex;
+    }
+  
+    nav ul li {
+      margin: 10px 0;
+    }
+  }
+  
   
