@@ -237,7 +237,8 @@ export default function Home() {
           <div className="projects-grid">
           <div className="project-card">
               <h3>My Portfolio</h3>
-              <p>Developed a responsive portfolio with Next.js and TypeScript, highlighting projects, skills, and experience, and deployed seamlessly on Vercel.</p>
+              <p>Built a responsive personal portfolio with Next.js and TypeScript, highlighting my projects, skills, and experience, and deployed seamlessly on Vercel.
+              Implemented smooth scroll, dynamic project sections, and optimized the site for fast load times across devices.</p>
               <div className="tech-stack">
                 <span>Next.js</span><span>TypeScript</span><span>HTML</span><span>CSS</span><span>Vercel</span>
               </div>
@@ -245,8 +246,9 @@ export default function Home() {
                 <img src="/icons/portfolio-image.png" alt="My-Portfolio"/>
               </div>
               <div className="project-links">
-                <a href="https://github.com/likhita-chinnari/portfolio-likhita-chinnari" target="_blank"><i className="fab fa-github"></i></a>
-              </div>
+              <a href="https://github.com/likhita-chinnari/portfolio-likhita-chinnari" target="_blank">
+              <FontAwesomeIcon icon={faGithub} />
+              </a></div>
             </div>
 
 
@@ -260,7 +262,7 @@ export default function Home() {
                 <img src="/icons/movies_list.png" alt="Movies Recommendation System"/>
               </div>
               <div className="project-links">
-                <a href="https://github.com/likhita-chinnari/Movie-Recommendation-System" target="_blank"><i className="fab fa-github"></i></a>
+                <a href="https://github.com/likhita-chinnari/Movie-Recommendation-System" target="_blank"><FontAwesomeIcon icon={faGithub} /></a>
               </div>
             </div>
 
@@ -274,7 +276,7 @@ export default function Home() {
                   <img src="/icons/handwritten-recognition-image.png" alt="Handwritten Recognition System"/>
                 </div>
                 <div className="project-links">
-                  <a href="https://github.com/likhita-chinnari/Handwritten-Text-Recognition/tree/master/handwritten-text-recognition-master" target="_blank"><i className="fab fa-github"></i></a>
+                  <a href="https://github.com/likhita-chinnari/Handwritten-Text-Recognition/tree/master/handwritten-text-recognition-master" target="_blank"><FontAwesomeIcon icon={faGithub} /></a>
                 </div>
               </div>
 
@@ -288,7 +290,7 @@ export default function Home() {
                   <img src="/icons/music-app.jpeg" alt="MusicApp"/>
                 </div>
                 <div className="project-links">
-                  <a href="https://github.com/likhita-chinnari/MusicApp-Jetpack-Compose" target="_blank"><i className="fab fa-github"></i></a>
+                  <a href="https://github.com/likhita-chinnari/MusicApp-Jetpack-Compose" target="_blank"><FontAwesomeIcon icon={faGithub} /></a>
                 </div>
               </div>
 
@@ -304,7 +306,7 @@ export default function Home() {
                   <img src="/icons/videostreaming-image.jpeg" alt="VideoStreamingApp"/>
                 </div>
                 <div className="project-links">
-                  <a href="https://github.com/likhita-chinnari/VideoStreamingApp/" target="_blank"><i className="fab fa-github"></i></a>
+                  <a href="https://github.com/likhita-chinnari/VideoStreamingApp/" target="_blank"><FontAwesomeIcon icon={faGithub} /></a>
                 </div>
               </div>
       
@@ -318,7 +320,7 @@ export default function Home() {
                 <img src="/icons/employee_performance_tracker.jpeg" alt="Employee-Performance-Tracker"/>
               </div>
               <div className="project-links">
-                <a href="https://github.com/likhita-chinnari/Employee-Performance-Tracker" target="_blank"><i className="fab fa-github"></i></a>
+                <a href="https://github.com/likhita-chinnari/Employee-Performance-Tracker" target="_blank"><FontAwesomeIcon icon={faGithub} /></a>
               </div>
             </div>
       
