@@ -640,12 +640,16 @@ section.fade-out {
   /* For mobile devices (width < 768px) */
   @media (max-width: 768px) {
     .hero {
-      flex-direction: column;
-      text-align: center;
-      height: auto;
-      padding: 150px 5% 50px 5%;
-    }
-  
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        height: auto; 
+        margin-top: 0; 
+        padding-top: 100px; 
+        padding-bottom: 50px;
+      }
+
     .hero-container {
       flex-direction: column;
       align-items: center;
