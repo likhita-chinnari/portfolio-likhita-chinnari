@@ -5,10 +5,14 @@ html {
 
 body {
     margin: 0;
+    padding-top: 80px; /* 🛠 Add padding equal to header height */
     font-family: 'Poppins', sans-serif;
     background-color: #121212;
     color: #fff;
+    line-height: 1.6;
 }
+
+
 
 section {
     min-height: auto;  /* Adjust height dynamically based on content */
