@@ -237,9 +237,9 @@ export default function Home() {
           <div className="projects-grid">
           <div className="project-card">
               <h3>My Portfolio</h3>
-              <p>Developed</p>
+              <p>Developed a responsive portfolio with Next.js and TypeScript, highlighting projects, skills, and experience, and deployed seamlessly on Vercel.</p>
               <div className="tech-stack">
-                <span>Next.js</span>TypeScript<span>HTML</span>CSS<span>Vercel</span>
+                <span>Next.js</span><span>TypeScript</span><span>HTML</span><span>CSS</span><span>Vercel</span>
               </div>
               <div className="project-image">
                 <img src="/icons/portfolio-image.png" alt="My-Portfolio"/>
