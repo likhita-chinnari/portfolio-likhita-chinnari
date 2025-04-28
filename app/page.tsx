@@ -110,7 +110,7 @@ export default function Home() {
         <div className="container">
           <h2 className="section-heading">About</h2>
           <p style={{ marginBottom: '20px' }}>
-          I'm a software engineer working in the Bay Area who loves building things from Android apps to full-stack projects and everything in between. I’ve worked on real-world automotive software, customizing Android systems for electric vehicles and helping bring EV dashboards to life.</p>
+          I'm a software engineer working in the Bay Area, California who loves building things from Android apps to full-stack projects and everything in between. I’ve worked on real-world automotive software, customizing Android systems for electric vehicles and helping bring EV dashboards to life.</p>
           <p style={{ marginBottom: '20px' }}>
           Professionally for the past 3+ years, I've been deep into automotive software, customizing Android for EV infotainment systems. It's been pretty cool seeing my work show up in real cars tuning dashboards, solving weird bugs, and getting systems ready for the road in tight deadlines.</p>
           <p>
