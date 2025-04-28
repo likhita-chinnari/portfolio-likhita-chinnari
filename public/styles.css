@@ -582,3 +582,161 @@ section.fade-out {
 }
 
 
+/* ==================== RESPONSIVE DESIGN ==================== */
+
+/* For tablets and smaller desktops (width < 992px) */
+@media (max-width: 992px) {
+    .hero {
+      flex-direction: column;
+      text-align: center;
+      height: auto;
+      padding-top: 120px;
+    }
+  
+    .hero-container {
+      flex-direction: column;
+      align-items: center;
+      gap: 20px;
+    }
+  
+    .hero-text h1 {
+      font-size: 3rem;
+    }
+  
+    .hero-image img {
+      width: 280px;
+      height: 280px;
+    }
+  
+    nav ul {
+      gap: 40px;
+    }
+  
+    .projects-grid {
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    }
+  
+    .skills-grid {
+      justify-content: center;
+    }
+  
+    .timeline {
+      padding-left: 60px;
+    }
+  
+    .timeline-item .year {
+      left: -100px;
+    }
+  
+    .timeline-item .details {
+      margin-left: 60px;
+    }
+  }
+  
+  /* For mobile devices (width < 768px) */
+  @media (max-width: 768px) {
+    .hero {
+      flex-direction: column;
+      text-align: center;
+      height: auto;
+      padding: 150px 5% 50px 5%;
+    }
+  
+    .hero-container {
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+    }
+  
+    .hero-text p {
+      font-size: 1.2rem;
+    }
+  
+    .hero-text h1 {
+      font-size: 2.4rem;
+      line-height: 1.3;
+    }
+  
+    .hero-image img {
+      width: 220px;
+      height: 220px;
+      margin-top: 20px;
+    }
+  
+    .btn {
+      position: static;
+      margin-top: 20px;
+      padding: 12px 24px;
+      font-size: 1rem;
+    }
+  
+    nav ul {
+      flex-direction: column;
+      background-color: #1a1a1a;
+      border-radius: 10px;
+      padding: 10px;
+      margin-top: 20px;
+    }
+  
+    .education-grid, 
+    .skills-grid {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .project-card {
+      padding: 20px;
+    }
+  
+    .timeline {
+      padding-left: 30px;
+    }
+  
+    .timeline-item .year {
+      left: -60px;
+    }
+  
+    .timeline-item .details {
+      margin-left: 40px;
+    }
+  
+    .contact-info {
+      flex-direction: column;
+      gap: 15px;
+    }
+  
+    .social-icons {
+      margin-top: 20px;
+      gap: 20px;
+    }
+  }
+  
+  /* For very small devices (width < 480px) */
+  @media (max-width: 480px) {
+    .hero-text h1 {
+      font-size: 2rem;
+    }
+  
+    .hero-text p {
+      font-size: 1rem;
+    }
+  
+    .container {
+      width: 95%;
+    }
+  
+    .education-card,
+    .skill-card,
+    .project-card {
+      width: 100%;
+    }
+  
+    .btn {
+      width: 100%;
+    }
+  
+    .timeline-item .details {
+      padding: 15px;
+    }
+  }
+  
