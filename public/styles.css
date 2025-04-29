@@ -696,17 +696,13 @@ section.fade-out {
       padding: 20px;
     }
   
-    .timeline {
-      padding-left: 30px;
-    }
-  
-    .timeline-item .year {
-      left: -60px;
-    }
-  
-    .timeline-item .details {
-      margin-left: 40px;
-    }
+    .timeline::before {
+        display: none;
+      }
+      
+      .timeline-line { /* If there is a real div for the line */
+        display: none;
+      }
   
     .contact-info {
       flex-direction: column;
@@ -824,12 +820,3 @@ section.fade-out {
   
 }
 
-@media (max-width: 768px) {
-    .timeline::before {
-      display: none;
-    }
-    
-    .timeline-line { /* If there is a real div for the line */
-      display: none;
-    }
-  }
