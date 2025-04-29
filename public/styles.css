@@ -701,11 +701,11 @@ section.fade-out {
     }
   
     .timeline-item .year {
-      left: 30px;
+      left: -30px;
     }
   
     .timeline-item .details {
-      margin-left: 40px;
+      margin-left: 70px;
     }
   
     .contact-info {
