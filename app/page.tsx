@@ -297,7 +297,7 @@ export default function Home() {
 
             <div className="project-card">
                 <h3>Music Application</h3>
-                <p>A real-time weather app using OpenWeatherMap and Unsplash APIs. Displays current weather and city imagery based on search input.</p>
+                <p> Developed a dynamic music player application supporting real-time audio playback, playlist management, and modern UI interactions for an intuitive listening experience.</p>
                 <div className="tech-stack">
                   <span>Kotlin</span><span>Jetpack Compose</span><span>Material3</span><span>Android Development</span><span>MVVM</span><span>Dagger Hilt</span>
                 </div>
@@ -313,7 +313,7 @@ export default function Home() {
 
               <div className="project-card">
                 <h3>Video Streaming Application</h3>
-                <p>A real-time weather app using OpenWeatherMap and Unsplash APIs. Displays current weather and city imagery based on search input.</p>
+                <p>Built a video streaming platform offering seamless video playback, smooth browsing across categories, and a TV-friendly interface optimized for larger screens.</p>
                 <div className="tech-stack">
                   <span>Kotlin</span><span>Retrofit</span><span>ExoPlayer</span><span>Leanback</span><span>MVVM</span><span>Android Development</span>
                 </div>
@@ -356,7 +356,7 @@ export default function Home() {
                     <span className="year">Oct 2024 - Dec 2024</span>
                     <div className="details">
                         <h3>Lucid Motors</h3>
-                        <h4>Android Applications Software Engineer Intern (Fall 2024)</h4>
+                        <h4>Intern, Android Applications Software Engineer(Fall 2024)</h4>
                         <p>Contributed to automotive app development, integrated new UI features, and optimized app launch speeds by 15% for vehicle infotainment systems.</p>
                     </div>
                 </div>
@@ -365,7 +365,7 @@ export default function Home() {
                     <span className="year">May 2024 - Aug 2024</span>
                     <div className="details">
                         <h3>Lucid Motors</h3>
-                        <h4>Android Applications Software Engineer Intern (Summer 2024)</h4>
+                        <h4>Intern, Android Applications Software Engineer(Summer 2024)</h4>
                         <p>Led feature integration for media apps, optimized caching, and worked on critical AOSP modifications, improving system performance by 18%.</p>
                     </div>
                 </div>
