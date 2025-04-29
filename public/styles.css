@@ -696,13 +696,17 @@ section.fade-out {
       padding: 20px;
     }
   
-    .timeline::before {
-        display: none;
-      }
-      
-      .timeline-line { /* If there is a real div for the line */
-        display: none;
-      }
+    .timeline {
+      padding-left: 30px;
+    }
+  
+    .timeline-item .year {
+      left: 30px;
+    }
+  
+    .timeline-item .details {
+      margin-left: 40px;
+    }
   
     .contact-info {
       flex-direction: column;
