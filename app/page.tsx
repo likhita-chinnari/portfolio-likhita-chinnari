@@ -26,10 +26,10 @@ export default function Home() {
 
     const dynamicText = document.querySelector('.dynamic-text') as HTMLElement;
     const roles = [
-      'Android Developer',
+      'Automation Engineer',
+      'Web/Mobile Applications Developer',
       'Automotive & EV domain Enthusiast',
       'ML/AI Leaner',
-      'React Native App Developer',
       
     ];
 
@@ -357,7 +357,8 @@ export default function Home() {
                     <div className="details">
                         <h3>Lucid Motors</h3>
                         <h4>Intern, Android Applications Software Engineer(Fall 2024)</h4>
-                        <p>Contributed to automotive app development, integrated new UI features, and optimized app launch speeds by 15% for vehicle infotainment systems.</p>
+                        <p>Automated OTA firmware validation for media systems using Python scripts, running tests to ensure media playback
+                        compatibility after updates.</p>
                     </div>
                 </div>
     
@@ -366,7 +367,8 @@ export default function Home() {
                     <div className="details">
                         <h3>Lucid Motors</h3>
                         <h4>Intern, Android Applications Software Engineer(Summer 2024)</h4>
-                        <p>Led feature integration for media apps, optimized caching, and worked on critical AOSP modifications, improving system performance by 18%.</p>
+                        <p>Developed Perl scripts for simulating vehicle network communication between the infotainment system and external
+                        devices, automating connectivity validation.</p>
                     </div>
                 </div>
     
@@ -376,7 +378,7 @@ export default function Home() {
                     <div className="details">
                         <h3>Harman Connected Services</h3>
                         <h4>Software Engineer - Product Development</h4>
-                        <p>Developed diagnostic modules, collaborated on AOSP development, and contributed to large-scale infotainment systems, reducing app crashes by 20%.</p>
+                        <p>Developed C++ unit tests to validate multimedia data integrity during playback, checking for packet loss.</p>
                     </div>
                 </div>
     
@@ -385,7 +387,7 @@ export default function Home() {
                     <div className="details">
                         <h3>Harman Connected Services</h3>
                         <h4>Associate Engineer</h4>
-                        <p>Built automotive applications from scratch, integrated with AOSP, and delivered multiple infotainment apps within tight deadlines for major OEMs.</p>
+                        <p>Built Perl scripts to automate voice command recognition tests in vehicle media control systems for accuracy.</p>
                     </div>
                 </div>
     
@@ -395,8 +397,8 @@ export default function Home() {
                     <div className="details">
                         <h3>Tikkly Agro Solutions</h3>
                         <h4>React Applications Developer Intern</h4>
-                        <p>Worked on ad carousel and sponsored product tracking for the Tikkly e-commerce app using React Native, FlatList, Flexbox, and REST-based event logging.Configured ad click tracking hooks using event listeners and REST logging, sending metadata to a mock analytics
-endpoint. enabled basic attribution and engagement insights for featured vendors.</p>
+                        <p> Automated API load testing for Tikkly e-commerce app’s checkout page using Postman and Newman, ensuring
+                        backend scalability during peak traffic.</p>
                     </div>
                 </div>
 
@@ -406,7 +408,8 @@ endpoint. enabled basic attribution and engagement insights for featured vendors
                     <div className="details">
                         <h3>Electronics Corporation of India Limited</h3>
                         <h4>Software Developer Intern</h4>
-                        <p>Designed firmware selector dashboard in React with real-time flashing and device sync over USB serial. Built C++ CLI logger tool to collect and tag embedded board messages streamed from FlexRay/CAN networks.</p>
+                        <p>Developed C++ tests for Atmel AT91 SoC firmware, detecting memory leaks during boot-up.
+                        Automated Python tests for Qualcomm SoC firmware, validating wireless data transmission under interference.</p>
                     </div>
                 </div>
     
